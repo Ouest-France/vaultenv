@@ -8,4 +8,4 @@ The vault configuration is based on environment variables that are provided by t
     export VAULT_URL="https://vault.aws-sipa.ouest-france.fr"
     source <( ./vault-env.sh path/to/secrets )
 
-
+Assuming your vault contains a variable name `DB_PASSWORD`, this will be automatically exposed as an environment variable
